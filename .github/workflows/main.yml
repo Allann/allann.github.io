@@ -20,5 +20,5 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
+      - run: pip install mkdocs-material mkdocs-git-authors-plugin mkdocs-git-revision-date-localized-plugin pymdown-extensions mkdocs-exclude mdx_truly_sane_lists mkdocs-open-in-new-tab
       - run: mkdocs gh-deploy --force
