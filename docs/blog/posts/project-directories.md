@@ -10,6 +10,8 @@ tags: [design]
 
 Various methods exist for organizing a project's directory structure, but I have a particular preference. Prior to delving into that, let's examine the conventional approaches often suggested by templates and demoware and why they may not be the most advantageous choice.
 
+<!-- more -->
+
 ## Organization by Technical Concern
 
 To illustrate this point, consider the analogy of a library—a repository of books available for reading, borrowing, and taking home. In a library, books are methodically arranged on shelves according to their respective categories. This systematic arrangement simplifies the process of finding a specific book and, at the same time, enables the discovery of related literature.
