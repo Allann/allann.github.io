@@ -3,7 +3,6 @@ date: 2023-11-01
 authors: [allann]
 categories:
   - minimal api
-draft: true
 tags: [design]
 ---
 
