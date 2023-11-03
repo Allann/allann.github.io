@@ -6,9 +6,11 @@ site_dir: 'built_site'
 plugins:
   - blog:
       categories_allowed:
-       - .net
+       - .net 8
        - c#
        - minimal api
+       - masstransit
+       - rabbitmq
       authors_file: "{blog}/.authors.yml"
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
@@ -58,6 +60,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - tables
   - toc:
       permalink: true
 
@@ -113,6 +116,10 @@ theme:
         icon: material/lightbulb
         name: Switch to light mode
 
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+  
 extra_css:
  - stylesheets/extra.css
  - stylesheets/code-tabs.css
