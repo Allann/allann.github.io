@@ -14,6 +14,8 @@ This is an extract from [Andrew Lock's blog][blog].  Jump over and check out his
 
 Even if you're new to C#, you have likely needed to get "the current time" at some point. The default way to do that is to use the `DateTime.UtcNow` or `DateTimeOffset.UtcNow` static properties. You can call these properties from anywhere in your code so they're an easy thing to reach for wherever you are.
 
+<!-- more -->
+
 ???+ info
     In this post I'm not going to get into the differences between `DateTime`/`DateTimeOffset`, `Now`/`UtcNow`, or whether you should actually be using something like [NodaTime][noda]. If you aren't aware of that project you should definitely look at it!
 
