@@ -16,6 +16,8 @@ Welcome to the world of parsing with Modeller DSL. This lightweight, high-speed,
 
 [Modeller.DslParser][dsl] is a parser combinator library, offering a high-level, declarative approach to crafting parsers. These parsers resemble a high-level specification of a language's grammar, yet they are expressed within a general-purpose programming language, requiring no special tools for producing executable code. Parser combinators offer enhanced capabilities compared to regular expressions, as they can handle a broader range of languages, all while being simpler and more user-friendly than parser generators like **ANTLR**.
 
+<!--- more --->
+
 At the core of [Modeller.DslParser][dsl] lies the `Parser<TToken, T>`. It embodies a procedure that consumes a stream of `TToken`s as input, potentially failing with a parsing error or yielding a `T` as output. You can conceptualise it as follows:
 
 ```csharp
