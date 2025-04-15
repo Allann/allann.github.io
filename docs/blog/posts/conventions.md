@@ -1,6 +1,6 @@
 ---
 title: Conventions
-date: 2024-14-17
+date: 2024-12-17
 categories: [programming, git]
 tags: [PR, code]
 ---
