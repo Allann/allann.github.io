@@ -1,3 +1,13 @@
+---
+title: Dynamic Connection Strings
+date: 2025-05-19
+authors: [allann]
+categories:
+  - dotnet
+  - minimal api
+tags: [dotnet, csharp, dbcontext]
+---
+
 # Dynamic Connection Strings in EF Core 9 Minimal APIs
 
 ## Altering a `DbContext` Connection at Runtime
