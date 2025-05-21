@@ -1,0 +1,52 @@
+
+.md-header {
+    background-color: rgb(26, 27, 141) !important;
+}
+
+.md-tabs {
+    background-color: rgb(76, 78, 184) !important;
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 2.2rem;
+}
+
+.md-source {
+    text-align: right;
+}
+
+.md-footer {
+    background-color: rgb(26, 27, 141) !important;
+}
+
+.md-typeset [type=checkbox]:checked + .task-list-indicator:before {
+    background-color: rgb(76, 78, 184) !important;
+}
+
+.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
+    color: rgb(40, 44, 82) !important;
+}
+
+.md-nav__item .md-nav__link--active {
+    text-decoration: underline;
+}
+
+.md-nav__link[for]:focus, .md-nav__link[for]:hover, .md-nav__link[href]:focus, .md-nav__link[href]:hover {
+    color: rgb(144, 170, 185) !important;
+}
+
+.md-typeset a {
+    color: rgb(199, 199, 228) !important;
+}
+
+    .md-typeset a:focus, .md-typeset a:hover {
+        color: rgb(76, 78, 184) !important;
+    }
+
+code {
+    font-size: 1em;
+}
+
+div.codehilite > pre {
+    overflow-x: auto;
+}
