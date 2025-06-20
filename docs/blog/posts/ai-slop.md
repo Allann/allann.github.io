@@ -1,8 +1,8 @@
 ---
-Title: The Subtle Cost of AI Dependence
-Date: 2025-06-20
-Categories: [programming, ai]
-Tags: [code]
+title: The Subtle Cost of AI Dependence
+date: 2025-06-20
+categories: [programming, ai]
+tags: [code]
 ---
 
 # The Subtle Cost of AI Dependence
