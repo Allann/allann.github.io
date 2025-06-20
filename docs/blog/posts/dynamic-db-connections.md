@@ -18,6 +18,8 @@ API), its `DbContextOptions` (including the connection string) are essentially f
 *reconfigure* the context’s connection string after it’s been created in the DI container. In other words, you **cannot
 directly “swap out” the connection string of an existing context instance** once it’s been configured.
 
+<!-- more -->
+
 That said, EF Core does provide an **advanced feature** to support dynamic connections *if done before first use*. EF
 Core’s relational providers (SQL Server, PostgreSQL, etc.) allow you to register a context *without initially specifying
 a connection string*, then supply it at runtime. For example, `UseSqlServer` (and other `Use*` calls) have an overload

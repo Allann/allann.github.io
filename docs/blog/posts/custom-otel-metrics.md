@@ -11,6 +11,8 @@ tags: [otel, aspire]
 today’s complex applications. While logs and traces provide valuable technical information, **custom metrics** unlock
 deeper insights by focusing on what truly matters to your business.
 
+<!-- more -->
+
 Throughout this article we will anchor concepts to a *real‐world scenario* taken from the waste‑management domain: an
 API that coordinates requests for video footage captured by garbage‑truck camera units.
 

@@ -13,8 +13,6 @@ tags: [dotnet, csharp, pipeline, middleware, domain]
 > *Move the elegance of ASP.NET Core middleware into any complex back-end workflow – without `HttpContext`, without OOP
 builders, and without losing DI, cancellation or early-exit behaviour.*
 
----
-
 ## Why a pipeline?
 
 Business workflows such as **Get GPS Logs** often involve many steps:
@@ -27,6 +25,8 @@ Business workflows such as **Get GPS Logs** often involve many steps:
 
 Each step should be **independent, replaceable, testable** and able to **short-circuit** on error or empty data – the
 classic “Russian-doll” pattern that ASP.NET Core middleware delivers for web traffic.
+
+<!-- more -->
 
 ## Key design choices
 

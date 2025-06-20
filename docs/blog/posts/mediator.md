@@ -11,11 +11,15 @@ tags: [dotnet, csharp, mediator, clean architecture]
 # Evaluating MediatR in Modern .NET (8, 9, 10) Applications
 
 ## Introduction and Background  
+
 MediatR is a popular .NET library that implements the *Mediator* pattern for in-process messaging. It allows decoupling of request senders from their handlers by routing messages (requests/commands/queries) through a central mediator. Over the years it has become a staple in many “Clean Architecture” templates and CQRS-style projects, with over 286 million NuGet downloads as of 2025 ([MediatR and MassTransit Going Commercial: What This Means For You](https://www.milanjovanovic.tech/blog/mediatr-and-masstransit-going-commercial-what-this-means-for-you#:~:text=MediatR%20%28286,it%20regularly%20in%20my%20projects)). MediatR provides a simple request/response API and supports publish/subscribe for in-memory notifications, along with a *pipeline behavior* feature that enables plugging in cross-cutting concerns (like logging, validation, etc.) around those requests.
 
 However, the landscape has changed in recent .NET versions (8 and beyond). The .NET platform now offers native features (such as minimal API **endpoint filters**, improved middleware, and powerful DI patterns) that cover many use cases MediatR was traditionally used for. Additionally, MediatR’s licensing has evolved – it is transitioning from a free OSS tool to a **commercial (paid) product**, raising questions about relying on it for core infrastructure ([AutoMapper and MediatR Going Commercial](https://www.jimmybogard.com/automapper-and-mediatr-going-commercial/#:~:text=Yes%2C%20another%20one%20of%20,But%20tl%3Bdr)) ([MediatR and MassTransit Going Commercial: What This Means For You](https://www.milanjovanovic.tech/blog/mediatr-and-masstransit-going-commercial-what-this-means-for-you#:~:text=Big%20changes%20are%20happening%20in,move%20to%20a%20commercial%20license)). This article provides a comprehensive evaluation of using MediatR in modern .NET applications, comparing its benefits and drawbacks to native alternatives, and offering guidance on when (if ever) it remains the right choice.
 
+<!-- more -->
+
 ## Overview: What MediatR Does  
+
 MediatR’s primary role is to reduce direct dependencies between components by providing a central mediator for interactions. Instead of a controller or service directly instantiating or calling a handler class, it sends a *request* to `IMediator`, which in turn finds and invokes the appropriate *handler*. This results in a clean separation: the sender only knows about the request and the mediator, not the concrete handler. MediatR supports: 
 
 - **Request/Response handling:** e.g. a `CreateOrderCommand` is sent and a `OrderCreatedResult` is returned by the corresponding handler.
