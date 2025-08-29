@@ -18,6 +18,7 @@ plugins:
        - dotnet
        - programming
        - git
+       - security
       authors_file: "{blog}/.authors.yml"
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
