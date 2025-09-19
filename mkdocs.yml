@@ -19,6 +19,7 @@ plugins:
        - programming
        - git
        - security
+       - docker
       authors_file: "{blog}/.authors.yml"
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
