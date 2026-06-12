@@ -7,6 +7,7 @@ plugins:
   - blog:
       categories_allowed:
        - .net 8
+       - ai
        - c#
        - minimal api
        - masstransit
@@ -18,6 +19,8 @@ plugins:
        - programming
        - git
        - leadership
+       - security
+       - docker
       authors_file: "{blog}/.authors.yml"
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'

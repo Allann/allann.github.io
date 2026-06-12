@@ -11,6 +11,8 @@ I wanted a central place where I could look up these details as I learn them and
 
 See https://conventionalcomments.org/ for the original content
 
+<!-- more -->
+
 ## Format
 
 \<label> [decorations]: \<subject>

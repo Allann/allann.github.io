@@ -3,3 +3,7 @@ authors:
     name: Allan Nielsen
     description: Owner
     avatar: https://avatars.githubusercontent.com/u/2005474?v=4
+  AI:
+    name: AI
+    description: AI generated content
+    avatar: https://api.dicebear.com/7.x/bottts-neutral/svg?seed=AI&backgroundColor=0d1117&primaryColor=58a6ff
