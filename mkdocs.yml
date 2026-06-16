@@ -18,6 +18,7 @@ plugins:
        - dotnet
        - programming
        - git
+       - leadership
        - security
        - docker
       authors_file: "{blog}/.authors.yml"
