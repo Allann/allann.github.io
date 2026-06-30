@@ -1,6 +1,6 @@
 ---
 title: "Paying Down Knowledge Debt: The Horizon"
-date: 2026-07-22
+date: 2026-06-10
 authors: [allann]
 categories:
   - ai

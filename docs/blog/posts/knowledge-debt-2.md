@@ -1,6 +1,6 @@
 ---
 title: "Paying Down Knowledge Debt: The Rewrite Temptation"
-date: 2026-06-10
+date: 2026-06-04
 authors: [allann]
 categories:
   - ai

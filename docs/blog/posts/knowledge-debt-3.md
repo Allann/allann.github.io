@@ -1,6 +1,6 @@
 ---
 title: "Paying Down Knowledge Debt: Finding the First Seam"
-date: 2026-06-17
+date: 2026-06-05
 authors: [allann]
 categories:
   - ai

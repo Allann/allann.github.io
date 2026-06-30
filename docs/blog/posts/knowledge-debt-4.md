@@ -1,6 +1,6 @@
 ---
 title: "Paying Down Knowledge Debt: The Tests That Tell the Truth"
-date: 2026-06-24
+date: 2026-06-06
 authors: [allann]
 categories:
   - ai

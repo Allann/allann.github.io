@@ -1,6 +1,6 @@
 ---
 title: "Paying Down Knowledge Debt: Making Knowledge Capture a Habit, Not a Project"
-date: 2026-07-15
+date: 2026-06-09
 authors: [allann]
 categories:
   - ai

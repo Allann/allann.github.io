@@ -1,6 +1,6 @@
 ---
 title: "Paying Down Knowledge Debt: The Shared Database, the Hardest Constraint"
-date: 2026-07-08
+date: 2026-06-08
 authors: [allann]
 categories:
   - ai
